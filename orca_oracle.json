@@ -1,0 +1,13 @@
+{
+  "pubkey": "4GkRbcYg1VKsZropgai4dMf2Nj2PkXNLf43knFpavrSi",
+  "account": {
+    "lamports": 1000000,
+    "data": [
+      "",
+      "base64"
+    ],
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "executable": false,
+    "rentEpoch": 0
+  }
+}
