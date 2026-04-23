@@ -1,4 +1,4 @@
-# ⚡ Solana Flash Loan Arbitrage Bot (MarginFi + Raydium + Orca)
+#  Solana Flash Loan Arbitrage Bot (MarginFi + Raydium + Orca)
 
 Production‑grade Solana flash loan bot that executes **atomic arbitrage** between **MarginFi V2**, **Raydium AMM V4**, and **Orca Whirlpool** in a single transaction. The entire lifecycle — borrow, route through DEXes, repay, and profit check — is enforced on‑chain by an Anchor program.
 
@@ -35,7 +35,7 @@ MarginFi Flash Loan (borrow USDC)
   MarginFi Repay   →  Repay USDC + fees
         │
         ▼
-        💰 Profit (if any)
+         Profit (if any)
 ```
 
 The Anchor program `flash_loan_bot` exposes **six instructions** that are composed into a single atomic transaction by an off‑chain client:
